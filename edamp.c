@@ -5,7 +5,6 @@
 
 //<INCLUDES>
 #include "fargo3d.h"
-//#include "edamp.h"
 //<\INCLUDES>
 
 void Edamp_cpu(real dt) {

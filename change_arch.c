@@ -573,12 +573,6 @@ if (strcmp(name, "computetotaldensity") == 0) {
       printf("Edamp runs on the GPU\n");
     }
   }
-  if (strcmp(name, "planet_fb_term") == 0) {
-  if(strval[0] == 'g'){
-    Planet_FB_term = Planet_FB_term_gpu;
-    printf("Planet_FB_term runs on the GPU\n");
-  }
-}
 
 #endif
     }

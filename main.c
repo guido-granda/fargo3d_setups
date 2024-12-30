@@ -411,7 +411,7 @@ if (*SPACING=='N'){
       
       MULTIFLUID(Sources(dt)); //v_half is used in the R.H.S
       /*gg: including explosions routine here */
-      //Explode();
+      Explode();
       //printf("Main OPT: ") 
 #ifdef DRAGFORCE
       FARGO_SAFE(Collisions(dt, 1)); // 1 --> V_temp is used.

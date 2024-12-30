@@ -1,2 +1,2 @@
-MAINOBJ += edamp.o
+MAINOBJ += edamp.o explosions.o
 GPUOBJ  += edamp_gpu.o
